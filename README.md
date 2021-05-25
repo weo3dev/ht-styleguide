@@ -1,12 +1,11 @@
-# Pattern Library Template
+# HT Pattern Library
 
 ## Intro
-This is a boilerplate for a site patterns, layout, components, and brand colors, assets, modules.
+Living styleguide for HT app.
 
 
 ## Requirements
 * Sass
 
 
-## Use
-Good for small- to medium-sized projects. That's about it. 
+

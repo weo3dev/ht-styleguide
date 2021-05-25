@@ -3,7 +3,7 @@ body {
     grid-template-columns: 1fr minmax(min-content, 200px) minmax(300px, 840px) 1fr;
     grid-template-areas: "hd hd hd hd" "... nv mn ...";
     grid-template-rows: min-content;
-    background-color: var(--patlib-white);
+    background-color: var(--patlib-black);
 }
 
 header {
