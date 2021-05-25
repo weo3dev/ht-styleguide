@@ -1,27 +1,15 @@
 :root {
-  --full-white: #fff;
-  --full-black: #000;
+  --standard-white: #fff;
+  --standard-black: #000;
   --patlib-black: #343434;
   --patlib-white: #fafafa;
   --patlib-primary: #369;
   --patlib-highlight: #DEF;
   --patlib-higherlight: #EFF;
-  --brand-blue: #2E91D0;
-  --brand-green: #94C943;
-  --brand-orange: #F99C1E;
-  --brand-black: #505050;
-  --brand-white: #F8F8F8;
-  --tresbu-aqua: #1DC9CF;
-  --tresbu-sky: #6EC1E4;
-  --tresbu-twilight: #4054B2;
-  --tresbu-clover: #23A455;
-  --tresbu-lime: #61CE70;
-  --tresbu-lightgrey: #E1DDDD;
-  --tresbu-midgrey: #7A7A7A;
-  --tresbu-darkgrey: #54595F;
-  --tresbu-midnight: #405169;
-  --tresbu-offwhite: #FDFAFA;
-  --tresbu-offblack: #020101;
+  --hyper-red: #FF425E;
+  --hyper-green: #36CE7C;
+  --hyper-yellow: #FCD848;
+  --hyper-orange: #FF8C22;
 }
 
 html {

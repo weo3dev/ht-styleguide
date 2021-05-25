@@ -3,7 +3,8 @@ body {
   grid-template-columns: 1fr minmax(min-content, 200px) minmax(300px, 840px) 1fr;
   grid-template-areas: "hd hd hd hd" "... nv mn ...";
   grid-template-rows: min-content;
-  background-color: var(--patlib-white);
+  background-color: var(--patlib-black);
+  color: var(--patlib-white);
 }
 
 header {
@@ -17,7 +18,7 @@ nav[aria-label=Primary] {
   display: grid;
   grid-template-rows: repeat(2, 4em min-content);
   padding-left: 0.5rem;
-  background-color: var(--tresbu-lightgrey);
+  background-color: var(--standard-black);
 }
 
 main {
