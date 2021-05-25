@@ -1,0 +1,131 @@
+@use 'settings';
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;  
+}
+
+h1 {
+  font-size: 2.732em;
+  line-height: 0.8;  
+  font-variant: small-caps;  
+  align-self: end;
+}
+
+h2 {
+  font-size: 2.351em;
+}
+
+h3 {
+  font-size: 2.016em;
+}
+
+h4 {
+  font-size: 1.571em;
+}
+
+li > a {
+  display: block;
+}
+
+nav[aria-label="Primary"] {
+
+  h3 {
+    font-size: 1.15rem;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    margin: 0;
+    align-self: end;
+  }
+
+  ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+
+      a {
+        padding: 0.25rem 0.75rem;
+        border-radius: 0.5rem 0 0 0.5rem;
+        text-decoration: none;
+        color: var(--patlib-black);
+        background-color: transparent;
+        margin: 0.25rem 0;
+
+        &:hover {
+          background-color: var(--patlib-white);
+        }
+      }
+
+      &.selected {
+        a {
+          background-color: var(--patlib-white);
+        }
+      }
+    }
+  }
+}
+
+nav[aria-label="Secondary"] {
+
+  ul {
+    list-style-type: none;
+    border-bottom: solid 1px #dedddc;
+    padding: 0;
+    display: grid;
+    grid-column-gap: 2em;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    grid-template-rows: 2.5em;
+    align-items: start;
+
+    li {
+
+      a {
+        color: #241c15;
+        font-weight: 500;
+        font-size: 1.1em;
+        text-decoration: none;
+        white-space: nowrap;
+        padding-bottom: 4px;
+        border-bottom: 4px double transparent;
+
+        &:hover {
+          border-bottom: 4px double #999;
+        }
+      }
+    }
+  }
+}
+
+
+.glyphs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 31px);
+  grid-template-rows: repeat(auto-fill, 33px);
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 32px;
+    outline: 1px solid #dadada;
+    margin-left: -1px;
+    margin-top: 1px;
+  }
+}
+
+.CodeMirror {
+  height: auto !important;
+  margin: 2em 0;  
+  border: 1px solid #dedddc;
+}

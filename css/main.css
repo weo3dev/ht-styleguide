@@ -1,0 +1,458 @@
+/*! modern-normalize | MIT License | https://github.com/sindresorhus/modern-normalize */
+/* Document
+   ========================================================================== */
+/**
+ * fix box model
+ */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/**
+* fix root height and line-height
+*/
+html {
+  height: 100%;
+  line-height: 1.25;
+}
+
+/**
+ * Remove the margin in all browsers, fix height, set standard font families as default
+ */
+body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Sections
+========================================================================== */
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+========================================================================== */
+/**
+ * Add the correct height in Firefox.
+ */
+hr {
+  height: 0;
+}
+
+/* Text-level semantics
+========================================================================== */
+/**
+ * Add the correct text decoration in Chrome, Edge, and Safari.
+ */
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp,
+pre {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Forms
+========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Edge and Firefox.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  padding: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome and Firefox.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+========================================================================== */
+/*
+ * Add the correct display in Chrome and Safari.
+ */
+summary {
+  display: list-item;
+}
+
+/*# sourceMappingURL=weo3-mn.css.map */
+:root {
+  --full-white: #fff;
+  --full-black: #000;
+  --patlib-black: #343434;
+  --patlib-white: #fafafa;
+  --patlib-primary: #369;
+  --patlib-highlight: #DEF;
+  --patlib-higherlight: #EFF;
+  --brand-blue: #2E91D0;
+  --brand-green: #94C943;
+  --brand-orange: #F99C1E;
+  --brand-black: #505050;
+  --brand-white: #F8F8F8;
+  --tresbu-aqua: #1DC9CF;
+  --tresbu-sky: #6EC1E4;
+  --tresbu-twilight: #4054B2;
+  --tresbu-clover: #23A455;
+  --tresbu-lime: #61CE70;
+  --tresbu-lightgrey: #E1DDDD;
+  --tresbu-midgrey: #7A7A7A;
+  --tresbu-darkgrey: #54595F;
+  --tresbu-midnight: #405169;
+  --tresbu-offwhite: #FDFAFA;
+  --tresbu-offblack: #020101;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-color-white {
+  color: var(--brand-white);
+}
+
+.text-color-black {
+  color: var(--brand-black);
+}
+
+.text-color-primary {
+  color: var(--brand-primary);
+}
+
+.text-color-secondary {
+  color: var(--brand-green);
+}
+
+.text-color-tertiary {
+  color: var(--brand-orange);
+}
+
+.bg-color-primary {
+  background-color: var(--brand-blue);
+}
+
+.bg-color-secondary {
+  background-color: var(--brand-green);
+}
+
+.bg-color-tertiary {
+  background-color: var(--brand-orange);
+}
+
+.bg-color-aqua {
+  background-color: var(--tresbu-aqua);
+}
+
+.bg-color-sky {
+  background-color: var(--tresbu-sky);
+}
+
+.bg-color-twilight {
+  background-color: var(--tresbu-twilight);
+}
+
+.bg-color-clover {
+  background-color: var(--tresbu-clover);
+}
+
+.bg-color-lime {
+  background-color: var(--tresbu-lime);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, 200px) minmax(300px, 840px) 1fr;
+  grid-template-areas: "hd hd hd hd" "... nv mn ...";
+  grid-template-rows: min-content;
+  background-color: var(--patlib-white);
+}
+
+header {
+  grid-area: hd;
+  padding: 1em;
+  box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.5);
+}
+
+nav[aria-label=Primary] {
+  grid-area: nv;
+  display: grid;
+  grid-template-rows: repeat(2, 4em min-content);
+  padding-left: 0.5rem;
+  background-color: var(--tresbu-lightgrey);
+}
+
+main {
+  grid-area: mn;
+  display: grid;
+  grid-template-rows: 4em 1fr;
+  grid-row-gap: 4em;
+  padding-left: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.732em;
+  line-height: 0.8;
+  font-variant: small-caps;
+  align-self: end;
+}
+
+h2 {
+  font-size: 2.351em;
+}
+
+h3 {
+  font-size: 2.016em;
+}
+
+h4 {
+  font-size: 1.571em;
+}
+
+li > a {
+  display: block;
+}
+
+nav[aria-label=Primary] h3 {
+  font-size: 1.15rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  margin: 0;
+  align-self: end;
+}
+nav[aria-label=Primary] ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav[aria-label=Primary] ul li a {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  text-decoration: none;
+  color: var(--patlib-black);
+  background-color: transparent;
+  margin: 0.25rem 0;
+}
+nav[aria-label=Primary] ul li a:hover {
+  background-color: var(--patlib-white);
+}
+nav[aria-label=Primary] ul li.selected a {
+  background-color: var(--patlib-white);
+}
+
+nav[aria-label=Secondary] ul {
+  list-style-type: none;
+  border-bottom: solid 1px #dedddc;
+  padding: 0;
+  display: grid;
+  grid-column-gap: 2em;
+  grid-auto-columns: min-content;
+  grid-auto-flow: column;
+  grid-template-rows: 2.5em;
+  align-items: start;
+}
+nav[aria-label=Secondary] ul li a {
+  color: #241c15;
+  font-weight: 500;
+  font-size: 1.1em;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-bottom: 4px;
+  border-bottom: 4px double transparent;
+}
+nav[aria-label=Secondary] ul li a:hover {
+  border-bottom: 4px double #999;
+}
+
+.glyphs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 31px);
+  grid-template-rows: repeat(auto-fill, 33px);
+}
+.glyphs-grid span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 32px;
+  outline: 1px solid #dadada;
+  margin-left: -1px;
+  margin-top: 1px;
+}
+
+.CodeMirror {
+  height: auto !important;
+  margin: 2em 0;
+  border: 1px solid #dedddc;
+}
+
+/*# sourceMappingURL=main.css.map */
