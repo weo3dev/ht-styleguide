@@ -36,36 +36,20 @@ html {
   color: var(--brand-orange);
 }
 
-.bg-color-primary {
-  background-color: var(--brand-blue);
+.bg-color-hyper-red {
+  background-color: var(--hyper-red);
 }
 
-.bg-color-secondary {
-  background-color: var(--brand-green);
+.bg-color-hyper-green {
+  background-color: var(--hyper-green);
 }
 
-.bg-color-tertiary {
-  background-color: var(--brand-orange);
+.bg-color-hyper-yellow {
+  background-color: var(--hyper-yellow);
 }
 
-.bg-color-aqua {
-  background-color: var(--tresbu-aqua);
-}
-
-.bg-color-sky {
-  background-color: var(--tresbu-sky);
-}
-
-.bg-color-twilight {
-  background-color: var(--tresbu-twilight);
-}
-
-.bg-color-clover {
-  background-color: var(--tresbu-clover);
-}
-
-.bg-color-lime {
-  background-color: var(--tresbu-lime);
+.bg-color-hyper-orange {
+  background-color: var(--hyper-orange);
 }
 
 .button-type h3 {
